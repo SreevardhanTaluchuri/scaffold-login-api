@@ -11,7 +11,8 @@ async function seed() {
    name: "Sreevardhan",
    username: "sreevardhan",
    password: hashedPassword,
-   email: "sreevardhan@virinnovation.in",
+   email: "sreevardhan@virinnovations.in",
+   two_auth: false,
   });
   return user.save();
  });

@@ -5,6 +5,6 @@ const router = express.Router();
 
 router.post("/signup", authMiddleWare.authUser, authController.postSignUp);
 router.post("/login", authController.postLogin);
-router.post("/firebase_auth", authController.postFirebaseLogin);
+// router.post("/firebase_auth", authController.postFirebaseLogin);
 
 export default router;
